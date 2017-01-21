@@ -1,0 +1,17 @@
++ თ დავაპატარავოთ -10 
++ უ ძველი ვერსია გვაქვს ჩასმული. ახალს გავუსწოროთ თავი.
++ წერტილები ცოტა დავაწვრილოთ.
++ ჯ-ს ორი წერტილი მოვაშოროთ -ზედმეტი რომ აქვს
++ ორწერტილის ალტერნატიული ვერსია (caltt რიცხვების შემდეგ რომ ციფრების ცენტრში აღმოჩნდეს)
++ აინ-ს ფეხი ვერტიკალური გავუხადოთ
++ აენ ინ დავაპატარავოთ, და ცოტა ფეხი მოვაჭრათ.
++ პატარა ნ და პატარა შ (caltt რომელიმე სიმბოლოებზე რომ )
++ narMod-georgian ცოტა სიგანეში გავზარდოთ და სიმაღლეში დავაპატარავოთ
+
+ვიწრო შ გამოვიყენოთ შემდეგ სიბოლოებზე
+მნპსშჩძწჭხჱჶჽ
+man-georgian nar-georgian par-georgian san-georgian shin-georgian chin-georgian jil-georgian cil-georgian char-georgian xan-georgian hae-georgian he-georgian fi-georgian aen-georgian
+
+ვიწრო ნ გამოვიყენოთ შემდეგ სიბოლოებზე
+ბზმნპრსქშჩწჭხჰჱჵჽ
+ban-georgian zen-georgian man-georgian nar-georgian par-georgian rae-georgian san-georgian khar-georgian shin-georgian chin-georgian cil-georgian char-georgian xan-georgian hae-georgian he-georgian hoe-georgian aen-georgian

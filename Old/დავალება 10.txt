@@ -1,0 +1,10 @@
+https://github.com/google/fonts/blob/master/CONTRIBUTING.md
+https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md
+
+fi-georgian - ჩავასწორე გავალამაზე
+yn-georgian – ჩავასწორე მოვამრგვალე
+aen-georgian – როგორი უნდა იყოს. როგორც ვნახე იგივეა რაც yn-georgian??
+hardsign-georgian – ეს იგივენაირია როგორც ამოტრიალებული იოტა??
+narMod-georgian – ამის სისქეებია გასარკვევი
+m n hypen - ტირეები ზომებია დასადგენი
+narMod-georgian – პატარა ნ არ ვიცი რამდენად კარგია

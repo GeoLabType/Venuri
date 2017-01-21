@@ -1,0 +1,590 @@
+{
+.appVersion = "957";
+DisplayStrings = (
+"/ain-georgian"
+);
+date = "2016-09-15 09:56:34 +0000";
+designer = "Mihkeil Khiphiani, Zaza Chugoshvili, Akaki Razmadze";
+familyName = "GL Akhali Venuri";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature ccmp;\012feature sups;\012feature frac;\012feature ordn;\012feature salt;\012feature ss01;\012feature calt;\012feature case;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb circumflexcomb dieresiscomb macroncomb];\012	sub [i]' @CombiningTopAccents by [idotless];\012} ccmp_Other_1;\012";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub five by fivesuperior;\012sub six by sixsuperior;\012sub seven by sevensuperior;\012sub eight by eightsuperior;\012sub nine by ninesuperior;\012";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;\012sub one slash two by onehalf;\012sub three slash four by threequarters;\012sub one slash three by onethird;\012sub two slash three by twothirds;\012";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+name = ordn;
+},
+{
+automatic = 1;
+code = "sub g by g.ss01;\012";
+name = salt;
+},
+{
+automatic = 1;
+code = "sub g by g.ss01;\012";
+name = ss01;
+},
+{
+code = "# plusminus მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] plusminus' by plusminus.uc;\012\012# logicalnot მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] logicalnot' by logicalnot.uc;\012\012# asciitilde მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] asciitilde' by asciitilde.uc;\012\012# plus მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] plus' by plus.uc;\012\012# minus მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] minus' by minus.uc;\012\012# multiply მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] multiply' by multiply.uc;\012\012# equal მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] equal' by equal.uc;\012\012# greater მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] greater' by greater.uc;\012\012# less მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] less' by less.uc;\012\012\012# guilsinglleft მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] guilsinglleft' by guilsinglleft.uc;\012\012# guilsinglright მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] guilsinglright' by guilsinglright.uc;\012\012# guillemetleft მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] guillemetleft' by guillemetleft.uc;\012\012# guillemetright მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] guillemetright' by guillemetright.uc;\012\012\012# emdash მაღლა ატანა ციფრების შემთხვევაში\012#sub [zero one two three four five six seven eight nine] emdash' by emdash.uc;\012\012# endash მაღლა ატანა ციფრების შემთხვევაში\012#sub [zero one two three four five six seven eight nine] endash' by endash.uc;\012\012# hyphen მაღლა ატანა ციფრების შემთხვევაში\012#sub [zero one two three four five six seven eight nine] hyphen' by hyphen.uc;\012\012# softhyphen მაღლა ატანა ციფრების შემთხვევაში\012#sub [zero one two three four five six seven eight nine] softhyphen' by softhyphen.uc;\012\012# emdash endash hyphen softhyphen ამათ მაგივრად, ზემოთ აწეული minus.uc-ის გამოყენება ციფრებისთვის\012# ამიტომ ზედა ოთხი განმარტებები აღარ არის საჭირო.\012sub [zero one two three four five six seven eight nine] [emdash endash hyphen softhyphen]' by minus.uc;\012\012\012# bullet მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] bullet' by bullet.uc;\012\012# ორწერტილის მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] colon' by colon.uc;\012\012# წერტილმძიმის მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] semicolon' by semicolon.uc;\012\012# periodcentered მაღლა ატანა ციფრების შემთხვევაში\012sub [zero one two three four five six seven eight nine] periodcentered' by periodcentered.uc;\012\012# ფრჩხილი ციფრებისთვის უფრო პატარა გამოვიყენოთ\012sub [zero one two three four five six seven eight nine] parenright' by parenright.uc;\012sub parenleft' [zero one two three four five six seven eight nine] by parenleft.uc;\012\012# ფიგურული ფრჩხილი ციფრებისთვის უფრო პატარა გამოვიყენოთ\012sub [zero one two three four five six seven eight nine] braceright' by braceright.uc;\012sub braceleft' [zero one two three four five six seven eight nine] by braceleft.uc;\012\012# კვადრატული ფრჩხილი ციფრებისთვის უფრო პატარა გამოვიყენოთ\012sub [zero one two three four five six seven eight nine] bracketright' by bracketright.uc;\012sub bracketleft' [zero one two three four five six seven eight nine] by bracketleft.uc;\012\012# დახრილი ხაზი ციფრებისთვის უფრო პატარა გამოვიყენოთ\012sub [zero one two three four five six seven eight nine] backslash' by backslash.uc;\012sub backslash' [zero one two three four five six seven eight nine] by backslash.uc;\012\012sub [zero one two three four five six seven eight nine] slash' by slash.uc;\012sub slash' [zero one two three four five six seven eight nine] by slash.uc;\012\012\012# შ-ს ვიწრო ვერსიით შეცვლა გარკვეულ სიმბოლოებთან\012sub [khar-georgian ban-georgian man-georgian nar-georgian par-georgian shin-georgian chin-georgian jil-georgian cil-georgian char-georgian xan-georgian hae-georgian he-georgian fi-georgian aen-georgian shin-georgian.uc nar-georgian.uc exclam question braceleft bracketleft parenleft har-georgian] shin-georgian' by shin-georgian.uc;\012\012# ნ-ს ვიწრო ვერსიით შეცვლა გარკვეულ სიმბოლოებთან\012sub nar-georgian' [ban-georgian zen-georgian man-georgian nar-georgian par-georgian rae-georgian san-georgian khar-georgian shin-georgian chin-georgian cil-georgian char-georgian xan-georgian hae-georgian he-georgian hoe-georgian aen-georgian exclam question braceright parenright bracketright] by nar-georgian.uc;";
+name = calt;
+},
+{
+code = "# ცენტრალური ობიექტები რომლებიც ციფრებისთვის ცოტა მაღლა ავწიეთ. მათი აფერქეისების გამოყენების დროსაც მაღლა უნდა აიწიოს.\012\012sub plusminus' by plusminus.uc;\012sub logicalnot' by logicalnot.uc;\012sub asciitilde' by asciitilde.uc;\012sub plus' by plus.uc;\012sub minus' by minus.uc;\012sub multiply' by multiply.uc;\012sub equal' by equal.uc;\012sub greater' by greater.uc;\012sub less' by less.uc;\012sub guilsinglleft' by guilsinglleft.uc;\012sub guilsinglright' by guilsinglright.uc;\012sub guillemetleft' by guillemetleft.uc;\012sub guillemetright' by guillemetright.uc;\012sub emdash' by emdash.uc;\012sub endash' by endash.uc;\012sub hyphen' by hyphen.uc;\012sub softhyphen' by softhyphen.uc;\012sub bullet' by bullet.uc;\012sub colon' by colon.uc;\012sub semicolon' by semicolon.uc;\012sub periodcentered' by periodcentered.uc;";
+name = case;
+}
+);
+fontMaster = (
+{
+alignmentZones = (
+"{710, 10}",
+"{690, 10}",
+"{342, 10}",
+"{0, -10}",
+"{-360, -10}"
+);
+ascender = 710;
+capHeight = 690;
+descender = -360;
+id = "AF766406-9206-4E1D-AA11-4B76129D1981";
+visible = 1;
+weight = Light;
+weightValue = 16;
+xHeight = 342;
+},
+{
+alignmentZones = (
+"{710, 12}",
+"{690, 12}",
+"{350, 12}",
+"{0, -12}",
+"{-360, -12}"
+);
+ascender = 710;
+capHeight = 690;
+descender = -360;
+guideLines = (
+{
+locked = 1;
+position = "{196, 90}";
+},
+{
+locked = 1;
+position = "{424, -383}";
+},
+{
+locked = 1;
+position = "{264, 132}";
+},
+{
+position = "{211, 283}";
+},
+{
+position = "{183, 263}";
+},
+{
+position = "{229, 257}";
+},
+{
+position = "{201, 743}";
+}
+);
+id = "9F5B1694-2A59-45B7-91CA-438A6316E2AD";
+userData = {
+GSOffsetHorizontal = 30;
+GSOffsetVertical = 20;
+};
+visible = 1;
+weightValue = 56;
+xHeight = 350;
+},
+{
+alignmentZones = (
+"{710, 15}",
+"{690, 15}",
+"{370, 15}",
+"{0, -15}",
+"{-360, -15}"
+);
+ascender = 710;
+capHeight = 690;
+descender = -360;
+guideLines = (
+{
+position = "{590, 423}";
+},
+{
+position = "{211, 284}";
+},
+{
+position = "{229, 256}";
+},
+{
+position = "{183, 263}";
+}
+);
+id = "4BC39443-182D-41DE-81B9-A713C9E8B1F3";
+userData = {
+GSOffsetHorizontal = 17;
+GSOffsetVertical = 15;
+};
+visible = 1;
+weight = Bold;
+weightValue = 156;
+xHeight = 370;
+}
+);
+glyphs = (
+{
+glyphname = "ain-georgian";
+lastChange = "2017-01-04 09:54:19 +0000";
+layers = (
+{
+layerId = "9F5B1694-2A59-45B7-91CA-438A6316E2AD";
+paths = (
+{
+closed = 1;
+nodes = (
+"359 0 LINE",
+"359 46 LINE",
+"224 46 LINE SMOOTH",
+"167 46 OFFCURVE",
+"110 97 OFFCURVE",
+"110 188 CURVE SMOOTH",
+"110 274 OFFCURVE",
+"157 316 OFFCURVE",
+"214 316 CURVE SMOOTH",
+"263 316 OFFCURVE",
+"301 289 OFFCURVE",
+"318 239 CURVE",
+"367 258 LINE",
+"344 323 OFFCURVE",
+"290 362 OFFCURVE",
+"214 362 CURVE SMOOTH",
+"119 362 OFFCURVE",
+"50 288 OFFCURVE",
+"50 194 CURVE SMOOTH",
+"50 129 OFFCURVE",
+"82 73 OFFCURVE",
+"133 43 CURVE",
+"74 43 LINE",
+"74 0 LINE"
+);
+}
+);
+width = 417;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"50 129 OFFCURVE",
+"78 76 OFFCURVE",
+"129 46 CURVE",
+"70 46 LINE",
+"70 0 LINE",
+"359 0 LINE",
+"359 46 LINE",
+"224 46 LINE SMOOTH",
+"167 46 OFFCURVE",
+"110 97 OFFCURVE",
+"110 188 CURVE SMOOTH",
+"110 274 OFFCURVE",
+"157 316 OFFCURVE",
+"214 316 CURVE SMOOTH",
+"263 316 OFFCURVE",
+"301 289 OFFCURVE",
+"318 239 CURVE",
+"367 258 LINE",
+"344 323 OFFCURVE",
+"290 362 OFFCURVE",
+"214 362 CURVE SMOOTH",
+"119 362 OFFCURVE",
+"50 293 OFFCURVE",
+"50 194 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "4BC39443-182D-41DE-81B9-A713C9E8B1F3";
+paths = (
+{
+closed = 1;
+nodes = (
+"409 0 LINE",
+"409 124 LINE",
+"267 124 LINE SMOOTH",
+"220 124 OFFCURVE",
+"190 148 OFFCURVE",
+"190 192 CURVE",
+"190 237 OFFCURVE",
+"210 258 OFFCURVE",
+"237 258 CURVE SMOOTH",
+"260 258 OFFCURVE",
+"276 244 OFFCURVE",
+"286 213 CURVE",
+"422 259 LINE",
+"398 330 OFFCURVE",
+"326 385 OFFCURVE",
+"230 385 CURVE SMOOTH",
+"122 385 OFFCURVE",
+"30 315 OFFCURVE",
+"30 220 CURVE SMOOTH",
+"30 170 OFFCURVE",
+"56 128 OFFCURVE",
+"90 106 CURVE",
+"50 106 LINE",
+"50 0 LINE"
+);
+}
+);
+width = 458;
+},
+{
+associatedMasterId = "4BC39443-182D-41DE-81B9-A713C9E8B1F3";
+layerId = "5E8EC4D1-9F71-4789-8F49-347BAA260D06";
+name = "Bold Aug 8 16, 08:46";
+paths = (
+{
+closed = 1;
+nodes = (
+"361 0 LINE",
+"346 64 OFFCURVE",
+"301 121 OFFCURVE",
+"223 165 CURVE SMOOTH",
+"172 194 OFFCURVE",
+"163 204 OFFCURVE",
+"163 230 CURVE SMOOTH",
+"163 253 OFFCURVE",
+"175 264 OFFCURVE",
+"203 264 CURVE SMOOTH",
+"228 264 OFFCURVE",
+"242 251 OFFCURVE",
+"251 219 CURVE",
+"391 222 LINE",
+"383 321 OFFCURVE",
+"306 386 OFFCURVE",
+"203 386 CURVE SMOOTH",
+"100 386 OFFCURVE",
+"19 320 OFFCURVE",
+"19 236 CURVE SMOOTH",
+"19 198 OFFCURVE",
+"41 149 OFFCURVE",
+"74 115 CURVE",
+"74 113 LINE",
+"67 112 OFFCURVE",
+"42 102 OFFCURVE",
+"36 99 CURVE",
+"98 20 LINE",
+"104 24 OFFCURVE",
+"128 42 OFFCURVE",
+"162 42 CURVE SMOOTH",
+"190 42 OFFCURVE",
+"220 25 OFFCURVE",
+"238 0 CURVE"
+);
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "9F5B1694-2A59-45B7-91CA-438A6316E2AD";
+layerId = "26492210-0374-44B8-8905-1812A3EFF274";
+name = "Regular Aug 8 16, 08:51";
+paths = (
+{
+closed = 1;
+nodes = (
+"318 8 LINE",
+"292 65 OFFCURVE",
+"244 100 OFFCURVE",
+"200 125 CURVE SMOOTH",
+"152 152 OFFCURVE",
+"109 176 OFFCURVE",
+"109 234 CURVE SMOOTH",
+"109 285 OFFCURVE",
+"147 316 OFFCURVE",
+"203 316 CURVE SMOOTH",
+"252 316 OFFCURVE",
+"289 288 OFFCURVE",
+"304 234 CURVE",
+"355 253 LINE",
+"336 322 OFFCURVE",
+"279 362 OFFCURVE",
+"203 362 CURVE SMOOTH",
+"103 362 OFFCURVE",
+"49 298 OFFCURVE",
+"49 241 CURVE SMOOTH",
+"49 172 OFFCURVE",
+"92 137 OFFCURVE",
+"143 111 CURVE",
+"143 109 LINE",
+"122 109 OFFCURVE",
+"103 106 OFFCURVE",
+"89 102 CURVE",
+"89 56 LINE",
+"107 63 OFFCURVE",
+"130 71 OFFCURVE",
+"158 71 CURVE SMOOTH",
+"212 71 OFFCURVE",
+"243 44 OFFCURVE",
+"275 -12 CURVE"
+);
+}
+);
+width = 385;
+},
+{
+associatedMasterId = "AF766406-9206-4E1D-AA11-4B76129D1981";
+layerId = "5F5CCDAF-21B0-43FB-9F10-BCA45DA8FF07";
+name = "Regular Aug 8 16, 08:51";
+paths = (
+{
+closed = 1;
+nodes = (
+"318 8 LINE",
+"292 65 OFFCURVE",
+"244 100 OFFCURVE",
+"200 125 CURVE SMOOTH",
+"152 152 OFFCURVE",
+"109 176 OFFCURVE",
+"109 234 CURVE SMOOTH",
+"109 285 OFFCURVE",
+"147 316 OFFCURVE",
+"203 316 CURVE SMOOTH",
+"252 316 OFFCURVE",
+"289 288 OFFCURVE",
+"304 234 CURVE",
+"355 253 LINE",
+"336 322 OFFCURVE",
+"279 362 OFFCURVE",
+"203 362 CURVE SMOOTH",
+"103 362 OFFCURVE",
+"49 298 OFFCURVE",
+"49 241 CURVE SMOOTH",
+"49 172 OFFCURVE",
+"92 137 OFFCURVE",
+"143 111 CURVE",
+"143 109 LINE",
+"122 109 OFFCURVE",
+"103 106 OFFCURVE",
+"89 102 CURVE",
+"89 56 LINE",
+"107 63 OFFCURVE",
+"130 71 OFFCURVE",
+"158 71 CURVE SMOOTH",
+"212 71 OFFCURVE",
+"243 44 OFFCURVE",
+"275 -12 CURVE"
+);
+}
+);
+width = 385;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"58 129 OFFCURVE",
+"86 76 OFFCURVE",
+"137 46 CURVE",
+"78 46 LINE",
+"78 0 LINE",
+"367 0 LINE",
+"367 46 LINE",
+"232 46 LINE SMOOTH",
+"175 46 OFFCURVE",
+"118 97 OFFCURVE",
+"118 188 CURVE SMOOTH",
+"118 274 OFFCURVE",
+"165 316 OFFCURVE",
+"222 316 CURVE SMOOTH",
+"271 316 OFFCURVE",
+"309 289 OFFCURVE",
+"326 239 CURVE",
+"375 258 LINE",
+"352 323 OFFCURVE",
+"298 362 OFFCURVE",
+"222 362 CURVE SMOOTH",
+"127 362 OFFCURVE",
+"58 293 OFFCURVE",
+"58 194 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "AF766406-9206-4E1D-AA11-4B76129D1981";
+paths = (
+{
+closed = 1;
+nodes = (
+"351 0 LINE",
+"351 15 LINE",
+"239 15 LINE SMOOTH",
+"160 15 OFFCURVE",
+"87 90 OFFCURVE",
+"87 184 CURVE SMOOTH",
+"87 288 OFFCURVE",
+"153 337 OFFCURVE",
+"225 337 CURVE SMOOTH",
+"289 337 OFFCURVE",
+"331 305 OFFCURVE",
+"353 254 CURVE",
+"367 260 LINE",
+"345 311 OFFCURVE",
+"302 352 OFFCURVE",
+"225 352 CURVE SMOOTH",
+"132 352 OFFCURVE",
+"70 285 OFFCURVE",
+"70 184 CURVE SMOOTH",
+"70 105 OFFCURVE",
+"116 39 OFFCURVE",
+"182 14 CURVE",
+"103 14 LINE",
+"103 0 LINE"
+);
+}
+);
+width = 439;
+}
+);
+unicode = 10FA;
+}
+);
+instances = (
+{
+interpolationWeight = 15;
+instanceInterpolations = {
+"9F5B1694-2A59-45B7-91CA-438A6316E2AD" = -0.025;
+"AF766406-9206-4E1D-AA11-4B76129D1981" = 1.025;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+interpolationWeight = 23;
+instanceInterpolations = {
+"9F5B1694-2A59-45B7-91CA-438A6316E2AD" = 0.175;
+"AF766406-9206-4E1D-AA11-4B76129D1981" = 0.825;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
+interpolationWeight = 37;
+instanceInterpolations = {
+"9F5B1694-2A59-45B7-91CA-438A6316E2AD" = 0.525;
+"AF766406-9206-4E1D-AA11-4B76129D1981" = 0.475;
+};
+name = Light;
+weightClass = Light;
+},
+{
+interpolationWeight = 56;
+instanceInterpolations = {
+"9F5B1694-2A59-45B7-91CA-438A6316E2AD" = 1;
+};
+name = Book;
+weightClass = Normal;
+},
+{
+interpolationWeight = 79;
+instanceInterpolations = {
+"9F5B1694-2A59-45B7-91CA-438A6316E2AD" = 0.77;
+"4BC39443-182D-41DE-81B9-A713C9E8B1F3" = 0.23;
+};
+name = Regular;
+},
+{
+interpolationWeight = 105;
+instanceInterpolations = {
+"9F5B1694-2A59-45B7-91CA-438A6316E2AD" = 0.51;
+"4BC39443-182D-41DE-81B9-A713C9E8B1F3" = 0.49;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+interpolationWeight = 132;
+instanceInterpolations = {
+"9F5B1694-2A59-45B7-91CA-438A6316E2AD" = 0.24;
+"4BC39443-182D-41DE-81B9-A713C9E8B1F3" = 0.76;
+};
+name = Bold;
+weightClass = Bold;
+},
+{
+interpolationWeight = 156;
+instanceInterpolations = {
+"4BC39443-182D-41DE-81B9-A713C9E8B1F3" = 1;
+};
+name = Heavy;
+weightClass = Heavy;
+}
+);
+manufacturer = GeoLab;
+manufacturerURL = www.geolab.ge;
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"48C93D0E-60D7-4E37-8406-84F1F9AB5B91" = {
+nV = "14";
+oH = "12";
+oV = "17";
+};
+"4BC39443-182D-41DE-81B9-A713C9E8B1F3" = {
+HH = "156";
+HV = "164";
+OH = "141";
+OV = "173";
+nV = "156";
+oH = "133";
+oV = "165";
+};
+"9F5B1694-2A59-45B7-91CA-438A6316E2AD" = {
+HH = "56";
+HV = 60;
+OH = 50;
+OV = 65;
+nV = 56;
+oH = 46;
+oV = 60;
+};
+"AF766406-9206-4E1D-AA11-4B76129D1981" = {
+nV = "16";
+oH = "15";
+oV = "17";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 31;
+}

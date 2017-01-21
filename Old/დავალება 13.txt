@@ -1,0 +1,5 @@
+https://github.com/google/fonts/blob/master/CONTRIBUTING.md
+https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md
+
+yn-georgian - თავი გავუზარდე და დაბოლოებები მოვაჭერი. უფრო ინგლისურ სს მივამსგავსე
+narMod-georgian – ცოტა კიდევ გავასქელე
