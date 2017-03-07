@@ -1,4 +1,4 @@
-![alt tag](http://i.imgur.com/lGFxR2X.png)
+![alt tag](http://i.imgur.com/wfMUxLv.png)
 # Venuri
 Make free font for Google Fonts "Venuri"
 
