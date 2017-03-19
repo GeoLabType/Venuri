@@ -1,3 +1,89 @@
+47.8 (19.03.2017)
+Add symbols:
+zero.tf, one.tf, two.tf, three.tf, four.tf, five.tf, six.tf, seven.tf, eight.tf, nine.tf
+par-georgian.case thin and bold
+yn-georgian.case thin and bold
+elifi-georgian.case thin and bold
+turnedgan-georgian.case  thin and bold
+ain-georgian.case thin and bold
+aen-georgian.case  thin and bold
+hardsign-georgian.case thin and bold
+labial-georgian.case thin and bold
+
+
+
+Amendments for:
+ban-georgian.case bold
+las-georgian.case thin, regular, bold
+can-georgian.case normal
+quotedblbase
+quotedblleft
+gan-georgian thin
+par-georgian.case thin, regular, bold
+vin-georgian thin
+tan-georgian thin
+kan-georgian thin
+don-georgian.case thin
+san-georgian.case thin, regular, bold
+comma thin, regular, bold
+he-georgian.case thin, regular, bold
+cil-georgian.case bold
+nar-georgian.case bold
+zhar-georgian.case bold
+un-georgian.case  thin, regular, bold
+khar-georgian.case bold
+paragraph
+
+Add uppercase feature:
+sub an-georgian by an-georgian.case;
+sub ban-georgian by ban-georgian.case;
+sub gan-georgian by gan-georgian.case;
+sub don-georgian by don-georgian.case;
+sub en-georgian by en-georgian.case;
+sub vin-georgian by vin-georgian.case;
+sub zen-georgian by zen-georgian.case;
+sub tan-georgian by tan-georgian.case;
+sub in-georgian by in-georgian.case;
+sub kan-georgian by kan-georgian.case;
+sub las-georgian by las-georgian.case;
+sub man-georgian by man-georgian.case;
+sub nar-georgian by nar-georgian.case;
+sub on-georgian by on-georgian.case;
+sub par-georgian by par-georgian.case;
+sub zhar-georgian by zhar-georgian.case;
+sub rae-georgian by rae-georgian.case;
+sub san-georgian by san-georgian.case;
+sub tar-georgian by tar-georgian.case;
+sub un-georgian by un-georgian.case;
+sub phar-georgian by phar-georgian.case;
+sub khar-georgian by khar-georgian.case;
+sub ghan-georgian by ghan-georgian.case;
+sub qar-georgian by qar-georgian.case;
+sub shin-georgian by shin-georgian.case;
+sub chin-georgian by chin-georgian.case;
+sub can-georgian by can-georgian.case;
+sub jil-georgian by jil-georgian.case;
+sub cil-georgian by cil-georgian.case;
+sub char-georgian by char-georgian.case;
+sub xan-georgian by xan-georgian.case;
+sub jhan-georgian by jhan-georgian.case;
+sub hae-georgian by hae-georgian.case;
+sub he-georgian by he-georgian.case;
+sub hie-georgian by hie-georgian.case;
+sub we-georgian by we-georgian.case;
+sub har-georgian by har-georgian.case;
+sub hoe-georgian by hoe-georgian.case;
+sub fi-georgian by fi-georgian.case;
+sub yn-georgian by yn-georgian.case;
+sub elifi-georgian by elifi-georgian.case;
+sub turnedgan-georgian by turnedgan-georgian.case;
+sub ain-georgian by ain-georgian.case;
+sub aen-georgian by aen-georgian.case;
+sub hardsign-georgian by hardsign-georgian.case;
+sub labial-georgian by labial-georgian.case;
+
+
+
 46.9 (14.03.2017)
 Add 
 cil-georgian bold, char-georgian bold
