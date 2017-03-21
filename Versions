@@ -1,3 +1,18 @@
+47.10 (21.03.2017)
+
+Add two special classes:
+uppercase_georgian and decimal_symbols to use them for Calt.
+
+Add calt's for the symbols:
+backslash periodcentered bullet colon semicolon slash braceleft braceright bracketleft bracketright parenleft parenright emdash endash hyphen softhyphen guillemetleft guillemetright guilsinglleft guilsinglright
+
+Amendments
+kan-georgian.case thin, normal
+gan-georgian.case bold
+par-georgian.case bold
+un-georgian.case bold
+
+
 47.8 (19.03.2017)
 Add symbols:
 zero.tf, one.tf, two.tf, three.tf, four.tf, five.tf, six.tf, seven.tf, eight.tf, nine.tf
